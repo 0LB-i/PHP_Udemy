@@ -35,6 +35,12 @@ if(5 < 10 || 10 < 50){ //true e true
     echo "Entrou no if 6 <br>";
 }
 
+echo "NOT ! <br>";
 
+if(5 > 2){ //true
+    echo "Entrou no if 7 <br>";
+}
 
-echo "<br>";
+if(!(5 > 2)){ //false
+    echo "Entrou no if 8 <br>";
+}
